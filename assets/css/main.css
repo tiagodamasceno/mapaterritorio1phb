@@ -1156,7 +1156,7 @@ article.project .header-image, article.registration .header-image {
       display: block; }
   @media screen and (min-width: 768px) {
     #main-header {
-      border-top: 0px solid #000000; } }
+      border-top: 6px solid #000000; } }
   @media print {
     #main-header {
       position: relative;
@@ -5168,7 +5168,6 @@ h6 {
         @media screen and (max-width: 768px) {
           #home-intro .branding p.text {
             padding: 0 20px;
-            font-size: 12px;
             line-height: 18px;
             margin-bottom: 1rem; } }
   #home-intro .box {
@@ -5190,12 +5189,10 @@ h6 {
       max-width: 500px;
       margin: 0 0 0 auto;
       padding-right: 125px;
-      width: 25em;
       position: relative; }
       @media screen and (max-width: 768px) {
         #home-intro .box #home-search-form {
-          margin: 0 6%;
-          width: 87vw; } }
+          margin: 0; } }
       #home-intro .box #home-search-form .rota {
         z-index: -1;
         position: absolute;

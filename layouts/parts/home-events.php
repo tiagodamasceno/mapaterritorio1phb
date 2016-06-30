@@ -10,11 +10,12 @@ $num_verified_events    = $this->getNumVerifiedEvents();
 $event_linguagens = array_values($app->getRegisteredTaxonomy($class_event, 'linguagem')->restrictedTerms);
 sort($event_linguagens);
 
-$event_img_attributes = 'class="random-feature no-image"';
+$event_img_attributes = 'class=""';
 
 $event = $this->getOneVerifiedEntity($class_event);
+
 if($event && $img_url = $this->getEntityFeaturedImageUrl($event)){
-    $event_img_attributes = 'class="random-feature" style="background-image: url(' . $img_url . ');"';
+    $event_img_attributes = 'class="" style=""';
 }
 
 $url_search_events = $this->searchEventsUrl;
@@ -52,24 +53,5 @@ $url_search_events = $this->searchEventsUrl;
             </div>
         </div>
     </div>
-    <div class="box image">
-    <?php if($event): ?>
-    <div class="box image events">
-    <?php endif; ?>
-        <div class="box-content">
-            <?php if($event): ?>
-            <a href="<?php echo $event->singleUrl ?>">
-                <div <?php echo $event_img_attributes;?>>
-                    <!-- <div class="feature-content">
-                        <h3>destaque</h3>
-                        <h2><?php echo $event->name ?></h2>
-                        <p><?php echo $event->shortDescription ?></p>
-                    </div> -->
-                </div>
-            </a>
-            <?php endif; ?>
-            <!-- <a class="btn btn-accent btn-large add" href="<?php echo $app->createUrl('event', 'create') ?>">Adicionar evento</a>
-            <a class="btn btn-accent btn-large" href="<?php echo $url_search_events ?>">Ver tudo</a> -->
-        </div>
-    </div>
+    
 </article>

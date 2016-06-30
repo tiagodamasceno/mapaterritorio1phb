@@ -12,7 +12,9 @@ sort($space_areas);
 
 $space_types = $app->getRegisteredEntityTypes($class_space);
 
-$space_img_attributes = 'class="random-feature no-image"';
+
+//
+//$space_img_attributes = 'class="random-feature no-image"';
 
 $space = $this->getOneVerifiedEntity($class_space);
 if($space && $img_url = $this->getEntityFeaturedImageUrl($space)){
