@@ -90,6 +90,13 @@ h6 {
     }
 }
 
+
+.ng-scope,.controller-panel {
+    #main-header{
+        position: relative
+    }
+}
+
 .controller-panel #main-header {
     position: fixed;
     top: 0;
@@ -175,7 +182,7 @@ h6 {
     padding: .25rem;
     font-size: 1rem;
     line-height: 1.875rem;
-    
+
     a {
         color: $brand-primary;
         &:hover {
@@ -472,7 +479,7 @@ h6 {
                 }
             }
         }
-    }   
+    }
     .box {
         top: 13em;
         @media screen and (max-width: $screen-tablet) {
@@ -496,10 +503,10 @@ h6 {
 //            width: 25em;
             position: relative;
             @media screen and (max-width: $screen-tablet) {
-                margin: 0 
+                margin: 0
             }
             .rota {
-                z-index: -1; 
+                z-index: -1;
                 position: absolute;
                 border-radius: 2em;
                 width: 0.8em;
@@ -547,7 +554,7 @@ h6 {
                     float: none;
                     height: 2.5rem;
                     margin-right: 0;
-                    width: 100%;   
+                    width: 100%;
                 }
                 .submenu-dropdown{
                     top: -228px;
@@ -617,7 +624,7 @@ h6 {
     background: transparent url(../img/home06.jpg) no-repeat top;
     background-size: cover;
     @media screen and (max-width: $screen-tablet) {
-        padding: 0 20px !important; 
+        padding: 0 20px !important;
     }
     .abas li.active {
         border-bottom-color: $brand-agent;
@@ -705,7 +712,7 @@ h6 {
                 padding: .75rem;
                 border-radius: 2px;
             }
-            h1{ 
+            h1{
                 a{
                     color: white;
                 }
@@ -787,7 +794,7 @@ h6 {
         margin: 0px 0 0;
         list-style: none;
         li a{
-            background: rgba(0,0,0,0.7) !important; 
+            background: rgba(0,0,0,0.7) !important;
         }
     }
     @media screen and (max-width: $screen-tablet) {
@@ -855,7 +862,7 @@ $unicode-project: '\e905';
     .btn-map-event {
         &:before {
             content: $unicode-event;
-        }      
+        }
     }
     .btn-map-agent {
         &:before {
@@ -880,8 +887,9 @@ $unicode-project: '\e905';
 // --------------------------------------------------
 
 #infobox {
-    top: 170px;
-}    
+    top: 0;
+}
+
 .dropdown {
     .submenu-dropdown {
         min-width: 102%;
