@@ -761,6 +761,7 @@ h6 {
     }
     li {
         padding: 0 $padding-base;
+        padding-top: 0.5em;
         cursor: pointer;
     }
     .submenu-dropdown {
@@ -881,9 +882,7 @@ $unicode-project: '\e905';
 #infobox {
     top: 170px;
 }    
-
-
- .dropdown {
+.dropdown {
     .submenu-dropdown {
         min-width: 102%;
     }
