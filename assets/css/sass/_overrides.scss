@@ -878,8 +878,12 @@ $unicode-project: '\e905';
 // Dropdown
 // --------------------------------------------------
 
+#infobox {
+    top: 170px;
+}    
 
-.dropdown {
+
+ .dropdown {
     .submenu-dropdown {
         min-width: 102%;
     }
