@@ -60,12 +60,12 @@
             
         <?php if($app->isEnabled('projects')): ?>
             <?php $this->applyTemplateHook('nav.main.projects','before'); ?>
-            <!--li id="entities-menu-project"  ng-class="{'active':data.global.filterEntity === 'project'}" ng-click="tabClick('project')">
+            <-li id="entities-menu-project"  ng-class="{'active':data.global.filterEntity === 'project'}" ng-click="tabClick('project')">
                 <a href="<?php if ($this->controller->action !== 'search') echo $app->createUrl('busca') . '##(global:(enabled:(project:!t),filterEntity:project,viewMode:list))'; ?>">
                     <div class="icon icon-project"></div>
                     <div class="menu-item-label">Projetos</div>
                 </a>
-            </li-->
+            </li>
             <?php $this->applyTemplateHook('nav.main.projects','after'); ?>
         <?php endif; ?>
     </ul>
