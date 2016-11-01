@@ -5073,7 +5073,8 @@ button.mfp-arrow-left {
   margin-top: 0.5rem; }
 
 body {
-  min-width: 990px; }
+  min-width: 990px;
+  color: 000; }
   @media screen and (max-width: 768px) {
     body {
       min-width: auto; } }
@@ -5090,7 +5091,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans",Helvetica,Arial,sans-serif; }
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  color: 000; }
 
 #filter-events {
   background: #04AB4A !important; }
