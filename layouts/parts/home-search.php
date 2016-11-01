@@ -54,7 +54,7 @@
     
   
 </section>
-<section id="home-intro" class="js-page-menu-item home-entity clearfix">  <div><p align="justify">Um rio, um delta, um mar, uma paisagem cultural atravessada por sons e
+<section id="home-intro" class="js-page-menu-item home-entity clearfix">  <div class="introducao"><p align="justify">Um rio, um delta, um mar, uma paisagem cultural atravessada por sons e
 imagens, histórias e memórias que recriam gerações que guardam dentro de si
 as tradições de um povo remanescente dos índios Tremembés, dos negros
 africanos arrancados de sua terra de origem e dos brancos europeus.</p><p align="justify">
