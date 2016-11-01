@@ -12,6 +12,7 @@
 // --------------------------------------------------
 body{
     min-width: 990px;
+    color: 000;
     @media screen and (max-width: $screen-tablet) {
         min-width: auto;
     }
