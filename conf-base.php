@@ -2,7 +2,7 @@
 
 return [
    // latitude,longitude do centro do mapa da busca e do mapa da criação de agentes e espaços
-   'maps.center' => [-15.788619534134423, -47.85472869873047],
+   'maps.center' => [-2.9055447, -41.773362599999984],
 //
 //    // a cada quantos pixels se deve criar um cluster no mapa da busca
 //    'maps.maxClusterRadius' => 40,
@@ -11,10 +11,10 @@ return [
 //    'maps.geometryFieldQuery' => "ST_SimplifyPreserveTopology(geom, 0.001)",
 //
    // zoom padrão do mapa da busca
-   'maps.zoom.default' => 11,
+   //'maps.zoom.default' => 11,
 //
 //    // zoom do mapa da single do agente quando este define a posição como aproximada
-//    'maps.zoom.approximate' => 14,
+     'maps.zoom.approximate' => 14,
 //
 //    // zoom do mapa da single do agente quando este define a posição como precisa
 //    'maps.zoom.precise' => 16,

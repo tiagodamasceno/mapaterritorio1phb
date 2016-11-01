@@ -27,7 +27,7 @@ $url_search_events = $this->searchEventsUrl;
         <div class="box-content">
             <h1>
                 <a href="<?php if ($this->controller->action !== 'search') echo $app->createUrl('busca') . '##(global:(enabled:(event:!t),filterEntity:event))'; ?>">
-                    <span class="icon icon-event"></span> Ações</h1>
+                    <!--<span class="icon icon-event"></span>--> Ações</h1>
                 </a>
             <div class="clearfix">
                 <div class="statistics">
